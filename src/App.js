@@ -1,7 +1,16 @@
 import React from 'react';
 
+import GlobalStyle from './styles/global';
+import Header from './components/Header';
+
 function App() {
-  return <h1>Oie</h1>;
+  return (
+    <>
+      <Header />
+
+      <GlobalStyle />
+    </>
+  );
 }
 
 export default App;
