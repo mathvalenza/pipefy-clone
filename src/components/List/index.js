@@ -6,7 +6,7 @@ import Card from '../Card';
 
 import { Container } from './styles';
 
-export default function index({ data }) {
+export default function Lists({ data }) {
   return (
     <Container done={data.done}>
       <header>
